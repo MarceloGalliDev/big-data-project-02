@@ -19,3 +19,9 @@ Para gerar documentação do dbt models
 
 Rodar apenas os testes
 - dbt test
+
+### Using dbt
+Pasta models é onde fica armazenado os scripts sql, no formato Jinja2.
+Criando arquivo source.yml para que o dbt encontre as tabelas vindo do airflow
+    As tabelas vindo de outros lugares que não são do dbt são chamadas de sources.
+    As tabelas criadas a partir do DBT são chamadas de models.
